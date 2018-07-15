@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <head>
-    <title>My movies</title>
+    <title>My precious time</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,22 +15,33 @@
 <div class="container">
 <div id="work">
 
-    <p id="Wdate"></p>
-        <button type="button" onclick="WorkTime()">Started at</button></div>
+    <p id="WdateStart"></p>
+        <button type="button" onclick="WorkTimeStart()">Started at</button>
+    <p id="WdateStop"></p>
+    <button type="button" onclick="WorkTimeStop()">Stopped at</button>
+</div>
 
 <div id="relax">
-    <p id="Rdate"></p>
-    <button type="button" onclick="RelaxTime()">Started at</button></div>
-
+    <p id="RdateStart"></p>
+    <button type="button" onclick="RelaxTimeStart()">Started at</button>
+    <p id="RdateStop"></p>
+    <button type="button" onclick="RelaxTimeStop()">Stopped at</button>
+</div>
 
 <div id="family">
-    <p id="Fdate"></p>
+    <p id="FdateStart"></p>
+    <button type="button" onclick="FamilyTimeStart()">Started at</button>
+    <p id="FdateStop"></p>
+    <button type="button" onclick="FamilyTimeStop()">Stopped at</button>
 
-    <button type="button" onclick="FamilyTime()">Started at</button></div>
+</div>
 
 <div id="sleep">
-    <p id="Sdate"></p>
-    <button type="button" onclick="SleepTime()">Started at</button></div>
+    <p id="SdateStart"></p>
+    <button type="button" onclick="SleepTimeStart()">Started at</button>
+    <p id="SdateStop"></p>
+    <button type="button" onclick="SleepTimeStop()">Started at</button>
+</div>
 
 
 <script src="time.js"></script>
